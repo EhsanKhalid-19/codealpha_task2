@@ -1,0 +1,47 @@
+.container{
+    border: 2px solid black;
+    height: 500px;
+    width: auto;
+    background-color: rgb(238, 99, 99);
+}
+#heading{
+    margin-top: 80px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    margin: 20px;
+
+}
+
+#audioPlayer {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 40px;
+    margin-left: 120px;
+
+}
+
+#playButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 150px;
+    border-radius: 20px;
+    background-color: rgb(63, 63, 63);
+    color: white;
+    float: right;
+    border: none;
+    margin-top: 50px;
+    margin-right: 240px;
+}
+#playButton:hover{
+    background-color: wheat;
+    color: black;
+}
+#musicInfo {
+    margin-top: 10px;
+    font-size: 18px;
+    margin-top: 60px;
+}
